@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Acacia Health</string>
+    <string name="app_slogan">#1 Health Insurance Company in Ghana</string>
+    <string name="btn_SignUp"> Sign Up </string>
+    <string name="btn_SignIn">Sign In</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="person_name">Name</string>
+    <string name="person_password">Password</string>
+</resources>

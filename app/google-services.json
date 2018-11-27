@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "432405809698",
+    "firebase_url": "https://acacia-health.firebaseio.com",
+    "project_id": "acacia-health",
+    "storage_bucket": "acacia-health.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432405809698:android:9429ed585d41c8d0",
+        "android_client_info": {
+          "package_name": "net.syynclab.acaciahealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432405809698-r9faqct4k0ci7qlmf8hq385uh721it9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.syynclab.acaciahealth",
+            "certificate_hash": "12cfd6c0ca66255ba12536e22666c3cd75deccbd"
+          }
+        },
+        {
+          "client_id": "432405809698-batji9eveh1d2l9m60li485cfeame11d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOep10NlF5dCkIDBRxHFLBOZUgAZ-3aoI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432405809698-batji9eveh1d2l9m60li485cfeame11d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
