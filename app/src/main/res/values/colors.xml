@@ -7,4 +7,6 @@
     <color name="colorBackground">#000000</color>
     <color name="btnSignUp">#2c1446</color>
     <color name="btnSignIn">#d17410</color>
+
+    <color name="dashboardBackground">#3a46fa</color>
 </resources>
