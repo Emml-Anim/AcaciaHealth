@@ -56,7 +56,6 @@
         android:text="@string/btn_SignIn"
         android:layout_margin="8dp"
         android:layout_alignParentBottom="true"
-        app:shadowColor="@android:color/white"
         app:fButtonColor="@color/btnSignIn"
         app:shadowEnabled="true"
         app:shadowHeight="5dp"
