@@ -28,7 +28,7 @@ public class Claims extends AppCompatActivity {
 
         //Initialize Views
         initViews();
-        
+
         claims_upload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
