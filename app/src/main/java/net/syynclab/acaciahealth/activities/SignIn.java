@@ -60,7 +60,7 @@ public class SignIn extends AppCompatActivity {
                             User user = dataSnapshot.child(editTextPhoneNumber.getText().toString()).getValue(User.class);
                             if (user.getPassword().equals(editTextPassword.getText().toString())) {
                                 {
-                                    Intent dashboard = new Intent(SignIn.this, Dashboard.class);
+                                    Intent dashboard = new Intent(SignIn.this, GreaterAccra.class);
                                     net.syynclab.acaciahealth.common.Common.currentUser = user;
                                     startActivity(dashboard);
                                     finish();

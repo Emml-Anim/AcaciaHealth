@@ -13,4 +13,10 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <string name="claim_title">Enter claim details to send to Health Provider</string>
+    <string name="claim_name">Name</string>
+    <string name="claim_email">Email</string>
+    <string name="claim_details">Enter claim details</string>
+    <string name="claim_send">Send claim</string>
 </resources>
