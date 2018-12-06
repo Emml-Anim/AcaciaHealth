@@ -50,7 +50,7 @@ public class GreaterAccra extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Filters");
+        getSupportActionBar().setTitle("Health Providers");
 
         //Init API
         Retrofit retrofit = RetrofitClient.getInstance();

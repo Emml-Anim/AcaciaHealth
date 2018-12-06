@@ -18,5 +18,6 @@
     <string name="claim_name">Name</string>
     <string name="claim_email">Email</string>
     <string name="claim_details">Enter claim details</string>
-    <string name="claim_send">Send claim</string>
+    <string name="claim_send">Make claim</string>
+    <string name="email">Email</string>
 </resources>

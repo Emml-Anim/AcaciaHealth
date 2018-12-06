@@ -14,6 +14,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:inputType="textEmailAddress"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true"/>
+
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/editTextPhoneNumber"
