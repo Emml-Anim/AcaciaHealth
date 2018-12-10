@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activities.Profile">
+        <activity android:name=".activities.Dashboard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.SignIn" />
-        <activity android:name=".activities.Dashboard" />
+        <activity android:name=".activities.About" />
         <activity android:name=".activities.SignUp" />
         <activity
             android:name=".activities.GreaterAccra"
@@ -35,6 +35,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.Claims">
+
+        </activity>
+
+        <activity android:name=".activities.Profile">
 
         </activity>
         <activity android:name=".activities.MainActivity">
