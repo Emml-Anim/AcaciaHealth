@@ -16,12 +16,30 @@ public class Dashboard extends AppCompatActivity {
         setContentView(R.layout.activity_dashboard);
 
         CardView btnAbout = (CardView) findViewById(R.id.btnAbout);
+        CardView faq = (CardView) findViewById(R.id.faq);
+        CardView providers = (CardView) findViewById(R.id.providers);
 
         btnAbout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent About = new Intent(Dashboard.this, About.class);
                 startActivity(About);
+            }
+        });
+
+        faq.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent faq = new Intent(Dashboard.this, Profile.class);
+                startActivity(faq);
+            }
+        });
+
+        providers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent providers = new Intent(Dashboard.this, GreaterAccra.class);
+                startActivity(providers);
             }
         });
     }
